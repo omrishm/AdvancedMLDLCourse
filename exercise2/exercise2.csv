@@ -1,0 +1,4 @@
+,model,Test score (Accuracy),Train score (Accuracy),Number of trainable parameters,Number of layers,Regularization methods,Number of epochs,Loss function,Optimizer
+0,Basic CNN,0.7525,0.97734375,"(160, 321)",16,"['Dropout', 'BatchNormalization', 'l2']",20,BinaryCrossentropy,adam
+1,My Model,0.71875,0.769140625,"(271, 339)",37,"['BatchNormalization', 'Dropout']",24,BinaryCrossentropy,adam
+2,InceptionV3,0.945,1.0,"(15, 553)",4,['Only the ones from the original model'],20,BinaryCrossentropy,adam
