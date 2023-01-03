@@ -1,0 +1,2 @@
+,model,Test score (Accuracy),Train score (Accuracy),Number of trainable parameters,Number of layers,Regularization methods,Number of epochs,Loss function,Optimizer,Embedding dimension
+0,RNN Model,0.8424,0.800,"365,793",6,Dropout,11,binary crossentropy,adam,16
